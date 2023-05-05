@@ -1,13 +1,13 @@
 {
-  "name": "dynamodb-crud-api-gateway",
+  "name": "aws_api_dynamodb_node_jsv3",
   "version": "1.0.0",
-  "description": "DynamoDB CRUD API using API Gateway and AWS Lambda",
+  "description": "AWS ",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
-  "author": "Jackson Yuan",
+  "author": "Mehmet Ali Kandemir",
   "license": "ISC",
   "dependencies": {
     "@aws-sdk/client-dynamodb": "^3.18.0",

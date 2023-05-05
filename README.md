@@ -1,6 +1,12 @@
-# DynamoDB CRUD API using API Gateway and AWS Lambda | Node.js w/ AWS-SDK V3
+# AWS CRUD SERVERLES 
 
-![visitors](https://visitor-badge.glitch.me/badge?page_id=jacksonyuan-yt.dynamodb-crud-api-gateway)
+* DynamoDB 
+* CRUD API 
+* using API Gateway
+* AWS Lambda 
+* Node.js w/ 
+* AWS-SDK V3
 
-### YouTube Video Tutorial
-* [Full Tutorial](https://youtu.be/hOcbHz4T0Eg)
+
+
+
