@@ -142,10 +142,10 @@ const getAllPosts = async () => {
             Items,
         });
 
-        response.headers = JSON.stringify({
+        response.headers = {
             'Access-Control-Allow-Origin': "*",
             'Access-Control-Allow-Credentials': true
-        });
+        };
     } catch (e) {
         console.error(e);
         response.statusCode = 500;
