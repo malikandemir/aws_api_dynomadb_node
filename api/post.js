@@ -24,6 +24,11 @@ const getPost = async (event) => {
             data: (Item) ? unmarshall(Item) : {},
             rawData: Item,
         });
+
+        response.headers = {
+            'Access-Control-Allow-Origin': "*",
+            'Access-Control-Allow-Credentials': true
+        };   
     } catch (e) {
         console.error(e);
         response.statusCode = 500;
@@ -52,6 +57,11 @@ const createPost = async (event) => {
             message: "Successfully created post.",
             createResult,
         });
+        
+        response.headers = {
+            'Access-Control-Allow-Origin': "*",
+            'Access-Control-Allow-Credentials': true
+        };   
     } catch (e) {
         console.error(e);
         response.statusCode = 500;
@@ -90,6 +100,11 @@ const updatePost = async (event) => {
             message: "Successfully updated post.",
             updateResult,
         });
+        
+        response.headers = {
+            'Access-Control-Allow-Origin': "*",
+            'Access-Control-Allow-Credentials': true
+        };   
     } catch (e) {
         console.error(e);
         response.statusCode = 500;
@@ -117,6 +132,11 @@ const deletePost = async (event) => {
             message: "Successfully deleted post.",
             deleteResult,
         });
+        
+        response.headers = {
+            'Access-Control-Allow-Origin': "*",
+            'Access-Control-Allow-Credentials': true
+        };   
     } catch (e) {
         console.error(e);
         response.statusCode = 500;
