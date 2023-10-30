@@ -141,11 +141,6 @@ const getAllPosts = async () => {
             data: Items.map((item) => unmarshall(item)),
             Items,
         });
-
-        response.headers = {
-            'Access-Control-Allow-Origin': "*",
-            'Access-Control-Allow-Credentials': true
-        };
     } catch (e) {
         console.error(e);
         response.statusCode = 500;
